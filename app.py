@@ -60,15 +60,4 @@ else:
     st.write("Use the menu to add transactions and analyze your spending.")
 
 
-# df = pd.DataFrame(data)
-# df.to_csv("sales_data.csv")
-# st.write(df)
-# if name:
-#     st.write(f"Hello,{name}")
-
-# uploaded_file=st.file_uploader("Choose a CSV file",type="csv")
-
-# if uploaded_file is not None:
-#     df=pd.read_csv(uploaded_file)
-#     st.write(df)
 
