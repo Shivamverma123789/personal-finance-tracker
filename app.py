@@ -24,7 +24,7 @@ if choice == "Add Transaction":
     st.subheader("Add a New Transaction")
 
     date = st.date_input("Transaction Date")
-    category = st.selectbox("Category", ["Food", "Transport", "Rent", "Entertainment", "Savings", "Other"])
+    category = st.selectbox("Category", ["Food", "Transport", "Rent", "Entertainment", "Savings","Incom", "Other"])
     amount = st.number_input("Amount", min_value=0.0, format="%.2f")
     transaction_type = st.radio("Transaction Type", ["Income", "Expense"])
 
